@@ -1,0 +1,6 @@
+{
+  "name": "CEK Digital Ecosystem",
+  "description": "Integrated institutional portal and role-based Institution Management System (IMS) for College of Engineering Karunagappally (IHRD), Kerala.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

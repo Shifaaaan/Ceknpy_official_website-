@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-editorial {
+    font-family: 'DM Serif Display', Georgia, serif;
+  }
+  .bg-campus-cream {
+    background-color: #F5E9D8;
+  }
+  .bg-editorial-black {
+    background-color: #080A09;
+  }
+  .bg-graphite {
+    background-color: #262A2E;
+  }
+  .bg-pale-blue {
+    background-color: #E7EDF5;
+  }
+  .bg-electric-blue {
+    background-color: #387DDD;
+  }
+  .text-electric-blue {
+    color: #387DDD;
+  }
+  .text-terracotta {
+    color: #8A5238;
+  }
+  .border-terracotta {
+    border-color: #8A5238;
+  }
+  .border-electric-blue {
+    border-color: #387DDD;
+  }
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #080A09;
+}
+::-webkit-scrollbar-thumb {
+  background: #262A2E;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #387DDD;
+}
